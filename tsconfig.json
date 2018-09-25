@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "sourceMap": true,
+      "module": "commonjs",
+      "target": "es2015",
+      "declaration": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "plugins": [
+        {
+          "transform": "./transform.js",
+          "type": "program"
+        }
+      ]
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "src/**/*.test.ts"
+    ]
+  }
+  

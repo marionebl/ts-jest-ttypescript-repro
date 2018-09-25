@@ -1,0 +1,21 @@
+{
+  "name": "ts-jest-ttypescript-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "ttsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "ttypescript": "^1.5.5",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/jest": "^23.3.2",
+    "ts-jest": "^23.10.1"
+  }
+}
